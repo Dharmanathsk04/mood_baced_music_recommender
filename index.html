@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mood Music Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 Mood Music Recommender</h1>
+
+    <div class="moods" id="moodButtons">
+      <!-- Mood buttons will appear here -->
+    </div>
+
+    <p id="suggestion">Select a mood to get a music suggestion!</p>
+
+    <hr>
+
+    <h2>Add Your Own Mood 🎼</h2>
+    <input type="text" id="newMood" placeholder="Mood (e.g. Study)">
+    <input type="text" id="newText" placeholder="Message (e.g. Great for studying)">
+    <input type="text" id="newLink" placeholder="YouTube Link">
+    <button onclick="addCustomMood()">➕ Add Mood</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
